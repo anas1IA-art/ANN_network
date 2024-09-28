@@ -1,0 +1,38 @@
+# # Ignore all __pycache__ directories and Python bytecode
+*.pyc
+*.pyo
+*.pyd
+# or **/__pycache__g
+
+# Ignore system files
+.DS_Stores
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore log files
+*.log
+
+
+# Ignore egg-info
+*.egg-info/
+# or /system_recommandations_suitables_models.egg-info
+
+# Ignore additional IDE and OS files
+.vscode/
+.idea/
+*.swp
+
+# Ignore data files (ensure this is intentional)
+/data
+/tes2
+/tests
+/file2
+
+# Track essential files
+# LICENSE
+# README.md
+# requirements.txt
