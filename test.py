@@ -17,10 +17,10 @@ data = pd.DataFrame(X, columns=[f'feature_{i}' for i in range(X.shape[1])])
 
 data['label'] =  y
 
-data.to_csv("data/data.csv", index= False)
+data.to_csv("./data/data.csv", index= False)
 
 
-pre = PrepaDataset("data.csv")
+pre = PrepaDataset("data/data.csv")
 
       
 model =  NeuralNetwork(input_size=2,hidden_size=14,output_size=1,init_method='uniform_scaled')
