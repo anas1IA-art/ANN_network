@@ -9,6 +9,7 @@ __all__ = ['NeuralNetwork',]
 class NeuralNetwork(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, activation='sigmoid', init_method='xavier'):
         super(NeuralNetwork, self).__init__()
+        self.init_method = init_method
         self.hidden = nn.Linear(input_size, hidden_size)
         self.output = nn.Linear(hidden_size, output_size)
         
