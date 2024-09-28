@@ -28,7 +28,7 @@ env/
 
 # Ignore data files (ensure this is intentional)
 *.csv
-/tes2
+/data
 /tests
 /file2
 

@@ -17,7 +17,7 @@ data = pd.DataFrame(X, columns=[f'feature_{i}' for i in range(X.shape[1])])
 
 data['label'] =  y
 
-data.to_csv("data.csv", index= False)
+data.to_csv("data/data.csv", index= False)
 
 
 pre = PrepaDataset("data.csv")
