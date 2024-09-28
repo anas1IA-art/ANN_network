@@ -27,7 +27,7 @@ env/
 *.swp
 
 # Ignore data files (ensure this is intentional)
-/data
+*.csv
 /tes2
 /tests
 /file2
